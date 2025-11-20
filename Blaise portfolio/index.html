@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blaise Portfolio</title>
+
+    <!-- Fonts and icons -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <header class="nav">
+        <div class="nav-wrap container">
+            <a class="brand" href="#home">Blaise<span class="dot">.</span></a>
+            <nav class="nav-center">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Project</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-spacer"></div>
+            <button id="burger" class="burger" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="hero-bg"></div>
+            <div class="container hero-inner">
+                <p class="hero-eyebrow">Hello, I’m</p>
+                <h1 class="hero-title">Blaise Bikorimana</h1>
+                <p class="hero-role">Software Developer</p>
+
+                <div class="hero-desc">
+                    <p>I’m a software developer passionate about building efficient, user-friendly applications.
+                        I specialize in modern web technologies and enjoy turning ideas into real–world solutions.
+                        I’m always eager to learn and improve my skills. Let’s build something great together.</p>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="#about" class="btn btn-primary">Explore More</a>
+                </div>
+
+                <div class="hero-socials">
+                    <a aria-label="GitHub" href="https://github.com/BlaiseBikorimana" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a aria-label="LinkedIn" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a aria-label="Email" href="mailto:blaisebiko720@gmail.com"><i
+                            class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title center">About Me</h2>
+
+                <div class="about-grid">
+                    <div class="about-left">
+                        <img class="about-avatar" src="images/ProfileBlaise.jpg" alt="Arsene profile">
+                        <div class="stats">
+                            <div class="stat">
+                                <div class="stat-ico" aria-hidden="true"><i class="fa-regular fa-clipboard"></i></div>
+                                <div class="stat-big">10 +</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-ico"><i class="fa-solid fa-code"></i></div>
+                                <div class="stat-big">100K +</div>
+                                <div class="stat-label">Lines of Code</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-ico"><i class="fa-solid fa-user-group"></i></div>
+                                <div class="stat-big">4 +</div>
+                                <div class="stat-label">Happy Clients</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-ico"><i class="fa-solid fa-brain"></i></div>
+                                <div class="stat-big">3 +</div>
+                                <div class="stat-label">Years of Experience</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-right">
+                        <h3 class="hi">Hi There! I’m Blaise</h3>
+                        <p class="about-p">
+                            I’m a software developer passionate about building efficient, user-friendly applications. I
+                            specialize in
+                            modern web technologies and enjoy turning ideas into real-world solutions. I’m always eager
+                            to learn and
+                            improve my skills. Let’s build something great together.
+                        </p>
+                        <p class="about-p">
+                            When I’m not coding, I enjoy diving into emerging tech, refining my design skills, and
+                            pursuing creative
+                            hobbies. I’m passionate about growth and committed to keeping up with the ever‑evolving
+                            world of software development.
+                        </p>
+
+                        <div class="best card">
+                            <h4>What I Do Best</h4>
+                            <ul>
+                                <li><span></span> Web development</li>
+                                <li><span></span> UI/UX design implementation</li>
+                                <li><span></span> Wordpress Development</li>
+                                <li><span></span> SEO optimization and DevOps</li>
+                                <li><span></span> Hosting and Maintenance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section skills section-alt">
+            <div class="container">
+                <h2 class="section-title center">Skills and Technologies</h2>
+
+                <div class="skill-cards">
+                    <article class="skill card">
+                        <h3 class="skill-title"><i class="fa-solid fa-display"></i> Frontend</h3>
+                        <div class="chips">
+                            <span class="chip chip-a">HTML5</span>
+                            <span class="chip chip-a">CSS3</span>
+                            <span class="chip chip-e">TypeScript</span>
+                            <span class="chip chip-a">JavaScript</span>
+                        </div>
+                    </article>
+
+                    <article class="skill card">
+                        <h3 class="skill-title"><i class="fa-brands fa-python"></i> Backend</h3>
+                        <div class="chips">
+                            <span class="chip chip-a">PHP</span>
+                            <span class="chip chip-a">Express.JS</span>
+                            <span class="chip chip-i">Python</span>
+                            <span class="chip chip-i">Node.JS</span>
+                            <span class="chip chip-a">SQL</span>
+                        </div>
+                    </article>
+
+                    <article class="skill card">
+                        <h3 class="skill-title"><i class="fa-solid fa-briefcase"></i> Tools</h3>
+                        <div class="chips">
+                            <span class="chip chip-a">Postman</span>
+                            <span class="chip chip-a">Figma</span>
+                            <span class="chip chip-e">VS Code</span>
+                            <span class="chip chip-a">Git</span>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="legend">
+                    <span class="chip chip-a">Advanced</span>
+                    <span class="chip chip-e">Expert</span>
+                    <span class="chip chip-i">Intermediate</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEARNING CALLOUT -->
+        <section class="learning">
+            <div class="container learn-inner">
+                <h2>Always Learning</h2>
+                <p>Technology evolves rapidly, and so do I. I'm constantly exploring new tools, frameworks, and best
+                    practices to stay at the
+                    forefront of this changing tech world. Currently diving deep into Software Testing and UI/UX design.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title center">Featured Project</h2>
+
+                <div class="projects">
+                    <article class="project card">
+                        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+                        <div class="project-body">
+                            <h3>Hospital Appointment System.</h3>
+                            <p>A web-based platform that allows patients to book, reschedule, or cancel medical
+                                appointments online. It helps hospitals
+                                manage doctor availability, reduce wait times, and streamline the appointment process.
+                            </p>
+                            <a href="#" class="read">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="project card">
+                        <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=1200&auto=format&fit=crop"
+                            alt="">
+                        <div class="project-body">
+                            <h3>Internet Banking System</h3>
+                            <p>An online platform for customers to access and manage their bank accounts securely.
+                                Transfers, bill payments, account
+                                monitoring, and more—anytime, anywhere.</p>
+                            <a href="#" class="read">Read More</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="more card center">
+                    <h3>Want to see more?</h3>
+                    <p>These are just a few highlights from my portfolio. Check out all my projects to see the full
+                        range of my work and skills.</p>
+                    <a class="btn btn-outline" href="https://github.com/BlaiseBikorimana?tab=projects">View all Projects <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title center">Get in Touch</h2>
+                <p class="section-lead center">Have a project in mind or just want to chat? I’d love to hear from you.
+                    Let’s create something amazing together!</p>
+
+                <div class="contact-grid">
+                    <form id="contactForm" class="contact-form card" novalidate>
+                        <h3>Send me message</h3>
+
+                        <div class="form-row">
+                            <label class="field">
+                                <span>Name *</span>
+                                <input type="text" name="name" placeholder="Your name" required>
+                            </label>
+                            <label class="field">
+                                <span>Email *</span>
+                                <input type="email" name="email" placeholder="Your email" required>
+                            </label>
+                        </div>
+
+                        <label class="field">
+                            <span>Subject *</span>
+                            <input type="text" name="subject" placeholder="What’s this about ?" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Message *</span>
+                            <textarea name="message" rows="7"
+                                placeholder='Tell me about your project or just say “Hello” !' required></textarea>
+                        </label>
+
+                        <button type="submit" class="btn btn-block btn-primary"><i class="fa-solid fa-paper-plane"></i>
+                            Send Message</button>
+                        <div id="formToast" role="status" aria-live="polite"></div>
+                    </form>
+
+                    <aside class="contact-card gradient">
+                        <h3>Let's Start a Conversation.</h3>
+                        <ul class="contact-list">
+                            <li><i class="fa-regular fa-envelope"></i><a
+                                    href="mailto:blaisebiko720@gmail.com">blaisebiko720@gmail.com</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:+250788324945">+ (250) 788 324 945</a>
+                            </li>
+                            <li><i class="fa-solid fa-location-dot"></i>Rwanda - Kigali City</li>
+                            <li><i class="fa-brands fa-github"></i><a href="https://github.com/BlaiseBikorimana" target="_blank">Blaise Bikorimana</a></li>
+                            <li><i class="fa-brands fa-linkedin"></i><a href="#" target="_blank">Blaise Bikorimana</a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> Blaise Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
